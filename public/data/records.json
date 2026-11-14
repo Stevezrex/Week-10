@@ -1,0 +1,651 @@
+{
+ "notes": [
+  [
+   "Date",
+   "Thursday 26 November 2026, 10:00 to 10:30 WAT, on Linkup."
+  ],
+  [
+   "Present",
+   "Ifeoma Adebayo, Tunde Bello, Kemi Adeyemi, Amaka Obi (joined 10:14). In attendance: you, chair and minute taker. Apologies: none."
+  ],
+  [
+   "Complaint trend (Kemi Adeyemi)",
+   "Late delivery complaints were 31% of tickets in October, up from 22% in September. Most come from Abuja and Port Harcourt orders."
+  ],
+  [
+   "Option comparison (Tunde Bello)",
+   "Eko Express ₦7.44m a month, SwiftLane ₦9.38m. Abuja and Port Harcourt delivery: Eko 3 to 5 days, SwiftLane 1 to 3 days. Tunde recommended Eko Express. Ifeoma said \"sounds good\" at 10:12."
+  ],
+  [
+   "Budget check (Amaka Obi, 10:18)",
+   "The Q1 courier line is ₦8.5m a month. Eko Express fits. SwiftLane would need CEO approval."
+  ],
+  [
+   "Delivery times",
+   "Eko Express has told Tunde informally it can deliver to Abuja and Port Harcourt in four days. There is no written confirmation."
+  ],
+  [
+   "10:18",
+   "Kemi asked to switch the packaging supplier. There is no paper. Ifeoma deferred it."
+  ],
+  [
+   "10:26",
+   "Ifeoma decided: Eko Express from 4 January 2027, as long as Eko confirms Abuja and Port Harcourt delivery in writing."
+  ],
+  [
+   "Actions",
+   "Tunde, written confirmation from Eko Express by Tuesday 1 December. Amaka, budget line in writing to Ifeoma by Monday 30 November. Kemi, packaging supplier paper to Ifeoma by Wednesday 2 December."
+  ],
+  [
+   "Next meeting",
+   "Thursday 3 December 2026, 10:00 WAT."
+  ]
+ ],
+ "sections": [
+  {
+   "id": "minutes",
+   "title": "Minutes"
+  },
+  {
+   "id": "decisions",
+   "title": "Decision log"
+  },
+  {
+   "id": "actions",
+   "title": "Action register"
+  },
+  {
+   "id": "followup",
+   "title": "Follow up"
+  }
+ ],
+ "decisionColumns": [
+  "Reference",
+  "Wording",
+  "Authority",
+  "Method",
+  "Status",
+  "Conditions",
+  "Related actions"
+ ],
+ "items": [
+  {
+   "key": "r_attendance",
+   "type": "single",
+   "screen": "records",
+   "section": "minutes",
+   "label": "Attendance line",
+   "options": [
+    {
+     "id": "att_ok",
+     "text": "Present: Ifeoma Adebayo, Tunde Bello, Kemi Adeyemi, Amaka Obi (joined 10:14). In attendance: minute taker. Apologies: none."
+    },
+    {
+     "id": "att_all",
+     "text": "Present: all four attendees. Apologies: none."
+    },
+    {
+     "id": "att_apol",
+     "text": "Present: Ifeoma, Tunde, Kemi. Apologies: Amaka Obi."
+    }
+   ]
+  },
+  {
+   "key": "r_headings",
+   "type": "single",
+   "screen": "records",
+   "section": "minutes",
+   "label": "Item headings",
+   "options": [
+    {
+     "id": "hd_ok",
+     "text": "1 Opening and purpose, 2 Complaint trend, 3 Option comparison, 4 Budget check, 5 Decision and actions, 6 Other business and next meeting"
+    },
+    {
+     "id": "hd_decision",
+     "text": "1 Decision, 2 Actions, 3 Option comparison, 4 Budget check, 5 Complaint trend"
+    },
+    {
+     "id": "hd_alpha",
+     "text": "Items in alphabetical order"
+    }
+   ]
+  },
+  {
+   "key": "r_style",
+   "type": "single",
+   "screen": "records",
+   "section": "minutes",
+   "label": "Wording style",
+   "options": [
+    {
+     "id": "st_ok",
+     "text": "3.2 Eko Express was recommended by the Logistics Lead. 5.1 Decision (D1): Eko Express was approved from 4 January 2027. 5.2 Action (A1): the Logistics Lead would obtain written confirmation by 1 December 2026."
+    },
+    {
+     "id": "st_we",
+     "text": "We decided to go with Eko Express. Tunde will get the confirmation by Tuesday."
+    },
+    {
+     "id": "st_notes",
+     "text": "The meeting notes that Eko Express is approved."
+    }
+   ]
+  },
+  {
+   "key": "minute_text",
+   "type": "text",
+   "typed": true,
+   "screen": "records",
+   "section": "minutes",
+   "label": "Write the minute for items 3 to 5: option comparison, budget check, and decision and actions.",
+   "hint": "Write the minute in your own words."
+  },
+  {
+   "key": "d1",
+   "type": "composite",
+   "ui": "decision",
+   "screen": "records",
+   "section": "decisions",
+   "label": "Decision D1",
+   "ref": "D1",
+   "fields": [
+    {
+     "id": "wording",
+     "label": "Wording",
+     "options": [
+      {
+       "id": "w_full",
+       "text": "Eko Express approved as the Q1 courier partner from 4 January 2027, subject to written confirmation of delivery to Abuja and Port Harcourt within 4 days"
+      },
+      {
+       "id": "w_plain",
+       "text": "Eko Express approved as courier partner"
+      },
+      {
+       "id": "w_reco",
+       "text": "Eko Express recommended"
+      }
+     ]
+    },
+    {
+     "id": "authority",
+     "label": "Authority",
+     "options": [
+      {
+       "id": "au_ifeoma",
+       "text": "Ifeoma Adebayo, Head of Operations"
+      },
+      {
+       "id": "au_tunde",
+       "text": "Tunde Bello, Logistics Lead"
+      },
+      {
+       "id": "au_amaka",
+       "text": "Amaka Obi, Finance Manager"
+      },
+      {
+       "id": "au_chinedu",
+       "text": "Chinedu Okeke, CEO"
+      }
+     ]
+    },
+    {
+     "id": "method",
+     "label": "Method",
+     "options": [
+      {
+       "id": "me_auth",
+       "text": "Stated by the decision maker after discussion"
+      },
+      {
+       "id": "me_vote",
+       "text": "Vote of those present"
+      },
+      {
+       "id": "me_agree",
+       "text": "Agreed by all present"
+      },
+      {
+       "id": "me_chair",
+       "text": "Decided by the chair"
+      }
+     ]
+    },
+    {
+     "id": "status",
+     "label": "Status",
+     "options": [
+      {
+       "id": "proposed",
+       "text": "Proposed"
+      },
+      {
+       "id": "approved",
+       "text": "Approved"
+      },
+      {
+       "id": "rejected",
+       "text": "Rejected"
+      },
+      {
+       "id": "deferred",
+       "text": "Deferred"
+      },
+      {
+       "id": "referred",
+       "text": "Referred"
+      }
+     ]
+    },
+    {
+     "id": "condition",
+     "label": "Conditions",
+     "options": [
+      {
+       "id": "co_eko",
+       "text": "Written confirmation from Eko Express of delivery to Abuja and Port Harcourt within 4 days"
+      },
+      {
+       "id": "co_budget",
+       "text": "Written confirmation of the Q1 budget line from Finance"
+      },
+      {
+       "id": "co_ceo",
+       "text": "Approval from the CEO"
+      },
+      {
+       "id": "co_none",
+       "text": "None"
+      }
+     ]
+    },
+    {
+     "id": "action",
+     "label": "Related actions",
+     "options": [
+      {
+       "id": "a1",
+       "text": "A1"
+      },
+      {
+       "id": "a2",
+       "text": "A2"
+      },
+      {
+       "id": "a3",
+       "text": "A3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "d2",
+   "type": "composite",
+   "ui": "decision",
+   "screen": "records",
+   "section": "decisions",
+   "label": "Decision D2",
+   "ref": "D2",
+   "fields": [
+    {
+     "id": "wording",
+     "label": "Wording",
+     "options": [
+      {
+       "id": "w_defer",
+       "text": "Packaging supplier change deferred until Kemi Adeyemi sends a paper"
+      },
+      {
+       "id": "w_approve",
+       "text": "Packaging supplier change approved"
+      },
+      {
+       "id": "w_reject",
+       "text": "Packaging supplier change rejected"
+      }
+     ]
+    },
+    {
+     "id": "status",
+     "label": "Status",
+     "options": [
+      {
+       "id": "proposed",
+       "text": "Proposed"
+      },
+      {
+       "id": "approved",
+       "text": "Approved"
+      },
+      {
+       "id": "rejected",
+       "text": "Rejected"
+      },
+      {
+       "id": "deferred",
+       "text": "Deferred"
+      },
+      {
+       "id": "referred",
+       "text": "Referred"
+      }
+     ]
+    },
+    {
+     "id": "action",
+     "label": "Related actions",
+     "options": [
+      {
+       "id": "a1",
+       "text": "A1"
+      },
+      {
+       "id": "a2",
+       "text": "A2"
+      },
+      {
+       "id": "a3",
+       "text": "A3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "a1",
+   "type": "composite",
+   "ui": "action",
+   "screen": "records",
+   "section": "actions",
+   "label": "Action A1",
+   "ref": "A1",
+   "task": "Obtain written confirmation from Eko Express of delivery to Abuja and Port Harcourt within 4 days",
+   "fields": [
+    {
+     "id": "owner",
+     "label": "Owner",
+     "options": [
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo"
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello"
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi"
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi"
+      }
+     ]
+    },
+    {
+     "id": "due",
+     "label": "Due",
+     "options": [
+      {
+       "id": "fri27",
+       "text": "Fri 27 Nov"
+      },
+      {
+       "id": "mon30",
+       "text": "Mon 30 Nov"
+      },
+      {
+       "id": "tue1",
+       "text": "Tue 1 Dec"
+      },
+      {
+       "id": "wed2",
+       "text": "Wed 2 Dec"
+      },
+      {
+       "id": "thu3",
+       "text": "Thu 3 Dec"
+      },
+      {
+       "id": "fri4",
+       "text": "Fri 4 Dec"
+      },
+      {
+       "id": "asap",
+       "text": "ASAP"
+      },
+      {
+       "id": "nextweek",
+       "text": "Next week"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "a2",
+   "type": "composite",
+   "ui": "action",
+   "screen": "records",
+   "section": "actions",
+   "label": "Action A2",
+   "ref": "A2",
+   "task": "Send Ifeoma the Q1 courier budget line in writing",
+   "fields": [
+    {
+     "id": "owner",
+     "label": "Owner",
+     "options": [
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo"
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello"
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi"
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi"
+      }
+     ]
+    },
+    {
+     "id": "due",
+     "label": "Due",
+     "options": [
+      {
+       "id": "fri27",
+       "text": "Fri 27 Nov"
+      },
+      {
+       "id": "mon30",
+       "text": "Mon 30 Nov"
+      },
+      {
+       "id": "tue1",
+       "text": "Tue 1 Dec"
+      },
+      {
+       "id": "wed2",
+       "text": "Wed 2 Dec"
+      },
+      {
+       "id": "thu3",
+       "text": "Thu 3 Dec"
+      },
+      {
+       "id": "fri4",
+       "text": "Fri 4 Dec"
+      },
+      {
+       "id": "asap",
+       "text": "ASAP"
+      },
+      {
+       "id": "nextweek",
+       "text": "Next week"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "a3",
+   "type": "composite",
+   "ui": "action",
+   "screen": "records",
+   "section": "actions",
+   "label": "Action A3",
+   "ref": "A3",
+   "task": "Send the packaging supplier paper to Ifeoma",
+   "fields": [
+    {
+     "id": "owner",
+     "label": "Owner",
+     "options": [
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo"
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello"
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi"
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi"
+      }
+     ]
+    },
+    {
+     "id": "due",
+     "label": "Due",
+     "options": [
+      {
+       "id": "fri27",
+       "text": "Fri 27 Nov"
+      },
+      {
+       "id": "mon30",
+       "text": "Mon 30 Nov"
+      },
+      {
+       "id": "tue1",
+       "text": "Tue 1 Dec"
+      },
+      {
+       "id": "wed2",
+       "text": "Wed 2 Dec"
+      },
+      {
+       "id": "thu3",
+       "text": "Thu 3 Dec"
+      },
+      {
+       "id": "fri4",
+       "text": "Fri 4 Dec"
+      },
+      {
+       "id": "asap",
+       "text": "ASAP"
+      },
+      {
+       "id": "nextweek",
+       "text": "Next week"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "recipients",
+   "type": "ticks",
+   "ui": "recipients",
+   "screen": "records",
+   "section": "followup",
+   "label": "Who receives the follow up?",
+   "options": [
+    {
+     "id": "ifeoma",
+     "text": "Ifeoma Adebayo"
+    },
+    {
+     "id": "tunde",
+     "text": "Tunde Bello"
+    },
+    {
+     "id": "amaka",
+     "text": "Amaka Obi"
+    },
+    {
+     "id": "kemi",
+     "text": "Kemi Adeyemi"
+    },
+    {
+     "id": "chinedu",
+     "text": "Chinedu Okeke"
+    },
+    {
+     "id": "femi",
+     "text": "Femi Ajayi"
+    },
+    {
+     "id": "staff",
+     "text": "All staff list"
+    }
+   ]
+  },
+  {
+   "key": "attachments",
+   "type": "ticks",
+   "ui": "attachments",
+   "screen": "records",
+   "section": "followup",
+   "label": "Tick the attachments.",
+   "options": [
+    {
+     "id": "minutes",
+     "text": "Minutes with decision summary"
+    },
+    {
+     "id": "actions",
+     "text": "Action register extract"
+    },
+    {
+     "id": "prices",
+     "text": "Option comparison with both price lists"
+    },
+    {
+     "id": "log",
+     "text": "Customer complaint log"
+    },
+    {
+     "id": "rec",
+     "text": "Meeting recording link"
+    }
+   ]
+  },
+  {
+   "key": "followup_message",
+   "type": "text",
+   "typed": true,
+   "ui": "followup",
+   "screen": "records",
+   "section": "followup",
+   "label": "Write the follow up email.",
+   "hint": "Write the message to the attendees."
+  }
+ ]
+}

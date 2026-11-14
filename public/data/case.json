@@ -1,0 +1,989 @@
+{
+ "meeting": {
+  "title": "Q1 courier partner decision",
+  "date": "Thursday 26 November 2026",
+  "start": "10:00",
+  "end": "10:30",
+  "zone": "WAT",
+  "platform": "Linkup"
+ },
+ "company": {
+  "name": "KobaMart Nigeria Ltd.",
+  "summary": "Lagos online retailer of home and kitchen goods. Founded 2019. Head office in Opebi, Ikeja. About 42 staff and 2,400 orders a month, 70% in Lagos. CEO: Chinedu Okeke."
+ },
+ "people": [
+  {
+   "id": "ifeoma",
+   "name": "Ifeoma Adebayo",
+   "short": "Ifeoma",
+   "role": "Head of Operations",
+   "email": "ifeoma@kobamart.example",
+   "avatar": "ifeoma.svg",
+   "authority": "Approves courier contracts within the approved budget line. Sends anything above it to the CEO."
+  },
+  {
+   "id": "tunde",
+   "name": "Tunde Bello",
+   "short": "Tunde",
+   "role": "Logistics Lead",
+   "email": "tunde@kobamart.example",
+   "avatar": "tunde.svg",
+   "authority": "Compares and recommends. Cannot approve."
+  },
+  {
+   "id": "amaka",
+   "name": "Amaka Obi",
+   "short": "Amaka",
+   "role": "Finance Manager",
+   "email": "amaka@kobamart.example",
+   "avatar": "amaka.svg",
+   "authority": "Confirms the budget line."
+  },
+  {
+   "id": "kemi",
+   "name": "Kemi Adeyemi",
+   "short": "Kemi",
+   "role": "Customer Support Lead",
+   "email": "kemi@kobamart.example",
+   "avatar": "kemi.svg",
+   "authority": "Reports complaint trends. Advises."
+  },
+  {
+   "id": "chinedu",
+   "name": "Chinedu Okeke",
+   "short": "Chinedu",
+   "role": "CEO",
+   "email": "chinedu@kobamart.example",
+   "authority": "Approves spend above the budget line."
+  },
+  {
+   "id": "sade",
+   "name": "Sade Lawal",
+   "short": "Sade",
+   "role": "Warehouse Supervisor",
+   "email": "sade@kobamart.example",
+   "authority": "Runs dispatch."
+  },
+  {
+   "id": "femi",
+   "name": "Femi Ajayi",
+   "short": "Femi",
+   "role": "SwiftLane account manager (external)",
+   "email": "femi.ajayi@swiftlane.example",
+   "authority": ""
+  },
+  {
+   "id": "dayo",
+   "name": "Dayo Peters",
+   "short": "Dayo",
+   "role": "Operations intern",
+   "email": "dayo@kobamart.example",
+   "authority": ""
+  }
+ ],
+ "availability": {
+  "people": [
+   "ifeoma",
+   "tunde",
+   "amaka",
+   "kemi"
+  ],
+  "slots": [
+   {
+    "id": "wed14",
+    "label": "Wed 25 Nov, 14:00",
+    "cells": {
+     "ifeoma": "Free",
+     "tunde": "Free",
+     "amaka": "Busy (payroll review)",
+     "kemi": "Free"
+    }
+   },
+   {
+    "id": "thu10",
+    "label": "Thu 26 Nov, 10:00",
+    "cells": {
+     "ifeoma": "Free",
+     "tunde": "Free",
+     "amaka": "Free",
+     "kemi": "Free"
+    }
+   },
+   {
+    "id": "thu15",
+    "label": "Thu 26 Nov, 15:00",
+    "cells": {
+     "ifeoma": "Free",
+     "tunde": "Busy (warehouse audit)",
+     "amaka": "Free",
+     "kemi": "Free"
+    }
+   },
+   {
+    "id": "fri09",
+    "label": "Fri 27 Nov, 09:00",
+    "cells": {
+     "ifeoma": "Free",
+     "tunde": "Free",
+     "amaka": "Free",
+     "kemi": "Busy (support rota)"
+    }
+   },
+   {
+    "id": "fri15",
+    "label": "Fri 27 Nov, 15:00",
+    "cells": {
+     "ifeoma": "Busy (travelling to Abuja)",
+     "tunde": "Free",
+     "amaka": "Free",
+     "kemi": "Free"
+    }
+   }
+  ]
+ },
+ "documents": [
+  {
+   "id": "r1",
+   "code": "R1",
+   "title": "Brief from Ifeoma Adebayo",
+   "kind": "email",
+   "from": "Ifeoma Adebayo",
+   "to": "You",
+   "subject": "Courier partner decision, please set up a meeting this week",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hi,"
+    },
+    {
+     "type": "p",
+     "text": "We need to choose our courier partner for Q1 before the current contract ends on 31 December. I want to decide in a 30 minute online meeting this week with Tunde, Amaka and Kemi."
+    },
+    {
+     "type": "p",
+     "text": "Tunde has compared the two options and Amaka holds the Q1 budget. Kemi has the latest complaint figures. Please plan the meeting, send the invitation and papers, run it, and send me the minutes and actions afterwards. You chair and take the minutes."
+    },
+    {
+     "type": "p",
+     "text": "I can approve a courier contract within the approved budget line. Anything above it goes to Chinedu."
+    },
+    {
+     "type": "p",
+     "text": "We need a decision by Friday 4 December to give 30 days' notice for a 4 January start."
+    },
+    {
+     "type": "p",
+     "text": "Thanks,"
+    },
+    {
+     "type": "p",
+     "text": "Ifeoma"
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "code": "R2",
+   "title": "People and authority",
+   "kind": "memo",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "KobaMart Nigeria Ltd. is a Lagos online retailer of home and kitchen goods, founded in 2019, with about 42 staff and 2,400 orders a month. Email addresses follow the format firstname@kobamart.example. Femi is at femi.ajayi@swiftlane.example."
+    },
+    {
+     "type": "table",
+     "columns": [
+      "Person",
+      "Role",
+      "Authority"
+     ],
+     "rows": [
+      [
+       "Ifeoma Adebayo",
+       "Head of Operations",
+       "Approves courier contracts within the approved budget line. Sends anything above it to the CEO."
+      ],
+      [
+       "Tunde Bello",
+       "Logistics Lead",
+       "Compares and recommends. Cannot approve."
+      ],
+      [
+       "Amaka Obi",
+       "Finance Manager",
+       "Confirms the budget line."
+      ],
+      [
+       "Kemi Adeyemi",
+       "Customer Support Lead",
+       "Reports complaint trends. Advises."
+      ],
+      [
+       "Chinedu Okeke",
+       "CEO",
+       "Approves spend above the budget line."
+      ],
+      [
+       "Sade Lawal",
+       "Warehouse Supervisor",
+       "Runs dispatch."
+      ],
+      [
+       "Femi Ajayi",
+       "SwiftLane account manager (external)",
+       ""
+      ],
+      [
+       "Dayo Peters",
+       "Operations intern",
+       ""
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "code": "R3",
+   "title": "Availability",
+   "kind": "memo",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Wednesday 25 to Friday 27 November, WAT. Free unless shown."
+    },
+    {
+     "type": "table",
+     "columns": [
+      "Slot",
+      "Ifeoma",
+      "Tunde",
+      "Amaka",
+      "Kemi"
+     ],
+     "rows": [
+      [
+       "Wed 25 Nov, 14:00",
+       "Free",
+       "Free",
+       "Busy (payroll review)",
+       "Free"
+      ],
+      [
+       "Thu 26 Nov, 10:00",
+       "Free",
+       "Free",
+       "Free",
+       "Free"
+      ],
+      [
+       "Thu 26 Nov, 15:00",
+       "Free",
+       "Busy (warehouse audit)",
+       "Free",
+       "Free"
+      ],
+      [
+       "Fri 27 Nov, 09:00",
+       "Free",
+       "Free",
+       "Free",
+       "Busy (support rota)"
+      ],
+      [
+       "Fri 27 Nov, 15:00",
+       "Busy (travelling to Abuja)",
+       "Free",
+       "Free",
+       "Free"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "code": "R4",
+   "title": "Option comparison",
+   "kind": "memo",
+   "from": "Tunde Bello",
+   "date": "18 November",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Figures from a six week pilot of 300 parcels per courier."
+    },
+    {
+     "type": "table",
+     "columns": [
+      "",
+      "SwiftLane",
+      "Eko Express"
+     ],
+     "rows": [
+      [
+       "Lagos, per parcel",
+       "₦2,800",
+       "₦2,200"
+      ],
+      [
+       "Other states, per parcel",
+       "₦6,500",
+       "₦5,200"
+      ],
+      [
+       "Monthly cost (1,680 Lagos and 720 other state parcels)",
+       "₦9,384,000",
+       "₦7,440,000"
+      ],
+      [
+       "Lagos delivery",
+       "Same or next day",
+       "Same or next day"
+      ],
+      [
+       "Abuja and Port Harcourt delivery",
+       "1 to 3 days",
+       "3 to 5 days"
+      ],
+      [
+       "Delivered on time",
+       "94%",
+       "86%"
+      ],
+      [
+       "Failed on first attempt",
+       "8%",
+       "14%"
+      ],
+      [
+       "Contract",
+       "12 months, 30 days' notice",
+       "12 months, 30 days' notice"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r5",
+   "code": "R5",
+   "title": "Q1 budget note",
+   "kind": "memo",
+   "from": "Amaka Obi",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Q1 courier budget line is ₦8,500,000 a month (₦25,500,000 for the quarter). Courier spend above the line needs CEO approval. Funds are confirmed in writing after the decision."
+    }
+   ]
+  },
+  {
+   "id": "r6",
+   "code": "R6",
+   "title": "Complaint trend",
+   "kind": "memo",
+   "from": "Kemi Adeyemi",
+   "date": "17 November",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Late delivery complaints were 31% of support tickets in October, up from 22% in September. Most come from Abuja and Port Harcourt orders."
+    },
+    {
+     "type": "p",
+     "text": "Customer details are held in the complaint log, which is restricted."
+    }
+   ]
+  },
+  {
+   "id": "r7",
+   "code": "R7",
+   "title": "KobaMart Meeting and Records Policy",
+   "kind": "memo",
+   "from": "Chinedu Okeke",
+   "date": "Version 3, issued 1 March 2026",
+   "blocks": [
+    {
+     "type": "ol",
+     "items": [
+      "A decision is recorded only when the person with authority states it. Recommendations are recorded as recommendations.",
+      "The Head of Operations approves vendor contracts within the approved budget line. Spend above the line needs CEO approval.",
+      "Papers go out before the meeting. Items without papers are deferred.",
+      "A meeting is recorded only for a stated purpose. The chair announces it at the start. Recordings are stored in Operations/Meetings, open to the chair and the head of the function only, and deleted 30 days after the minutes are approved.",
+      "Minutes are issued within 24 hours. They record decisions, actions with an owner and a due date, and unresolved matters.",
+      "Minutes and action extracts go to attendees. Vendor pricing goes to the Head of Operations and the Finance Manager only. Customer complaint logs contain personal data and are not attached to meeting records or emails.",
+      "Vendors do not attend internal decision meetings.",
+      "Minutes are kept for six years."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "r8",
+   "code": "R8",
+   "title": "Linkup platform notes",
+   "kind": "memo",
+   "blocks": [
+    {
+     "type": "ul",
+     "items": [
+      "The waiting room is on by default. The host admits participants by name.",
+      "Only the host can record. A banner shows to everyone when recording starts.",
+      "Screen sharing is limited to the host until the host gives presenter rights.",
+      "The host can mute any participant.",
+      "Participants can join by phone.",
+      "Audio mode, with no video, works on weak connections."
+     ]
+    }
+   ]
+  }
+ ],
+ "guidance": {
+  "cover": "You have 3 attempts. Each attempt runs for 120 minutes from the moment you start. Your work saves as you go.",
+  "home": "Work through Prepare, Meeting and Records in any order. Research stays open throughout.",
+  "research": "Open each document from the list. Everything here is available while you work.",
+  "prepare": "Complete each section. Your selections save automatically.",
+  "meeting": "Messages appear as the meeting runs. Respond in the panel under the room. You can return to earlier moments.",
+  "records": "The meeting notes are on the left. Complete each record on the right.",
+  "review": "Unanswered items are listed. Select one to go back to it.",
+  "reset": "Clears every answer in this attempt. Available once per attempt.",
+  "logout": "Ends this attempt and records your work."
+ },
+ "prepare": {
+  "sections": [
+   {
+    "id": "p1",
+    "title": "Purpose and outcome"
+   },
+   {
+    "id": "p2",
+    "title": "Invitees and roles"
+   },
+   {
+    "id": "p3",
+    "title": "Agenda and papers"
+   },
+   {
+    "id": "p4",
+    "title": "Invitation and slot"
+   },
+   {
+    "id": "p5",
+    "title": "Access and recording"
+   }
+  ],
+  "items": [
+   {
+    "key": "p1_purpose",
+    "type": "single",
+    "screen": "prepare",
+    "section": "p1",
+    "label": "What is the purpose of the meeting?",
+    "options": [
+     {
+      "id": "decide",
+      "text": "Decide which courier partner KobaMart uses from 4 January 2027, within the approved budget line."
+     },
+     {
+      "id": "compare",
+      "text": "Compare SwiftLane and Eko Express and agree the next steps."
+     },
+     {
+      "id": "discuss",
+      "text": "Discuss courier options and complaints."
+     }
+    ]
+   },
+   {
+    "key": "p1_outcome",
+    "type": "single",
+    "screen": "prepare",
+    "section": "p1",
+    "label": "What outcome do you need from the meeting?",
+    "options": [
+     {
+      "id": "decision",
+      "text": "A decision"
+     },
+     {
+      "id": "recommendation",
+      "text": "A recommendation for approval at a later meeting"
+     },
+     {
+      "id": "info",
+      "text": "An information update"
+     }
+    ]
+   },
+   {
+    "key": "p2_invitees",
+    "type": "composite",
+    "ui": "people_status",
+    "screen": "prepare",
+    "section": "p2",
+    "label": "Who do you invite, and how?",
+    "fields": [
+     {
+      "id": "ifeoma",
+      "label": "Ifeoma Adebayo",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "tunde",
+      "label": "Tunde Bello",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "amaka",
+      "label": "Amaka Obi",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "kemi",
+      "label": "Kemi Adeyemi",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "chinedu",
+      "label": "Chinedu Okeke",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "sade",
+      "label": "Sade Lawal",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "femi",
+      "label": "Femi Ajayi",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     },
+     {
+      "id": "dayo",
+      "label": "Dayo Peters",
+      "options": [
+       {
+        "id": "req",
+        "text": "Required"
+       },
+       {
+        "id": "opt",
+        "text": "Optional"
+       },
+       {
+        "id": "no",
+        "text": "Not invited"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "p2_roles",
+    "type": "composite",
+    "ui": "roles",
+    "screen": "prepare",
+    "section": "p2",
+    "label": "Who does what in the meeting?",
+    "fixed": {
+     "label": "Chair, host and minute taker",
+     "value": "You"
+    },
+    "fields": [
+     {
+      "id": "decide",
+      "label": "Makes the decision",
+      "options": [
+       {
+        "id": "you",
+        "text": "You"
+       },
+       {
+        "id": "ifeoma",
+        "text": "Ifeoma Adebayo"
+       },
+       {
+        "id": "tunde",
+        "text": "Tunde Bello"
+       },
+       {
+        "id": "amaka",
+        "text": "Amaka Obi"
+       },
+       {
+        "id": "kemi",
+        "text": "Kemi Adeyemi"
+       }
+      ]
+     },
+     {
+      "id": "present",
+      "label": "Presents the options",
+      "options": [
+       {
+        "id": "you",
+        "text": "You"
+       },
+       {
+        "id": "ifeoma",
+        "text": "Ifeoma Adebayo"
+       },
+       {
+        "id": "tunde",
+        "text": "Tunde Bello"
+       },
+       {
+        "id": "amaka",
+        "text": "Amaka Obi"
+       },
+       {
+        "id": "kemi",
+        "text": "Kemi Adeyemi"
+       }
+      ]
+     },
+     {
+      "id": "budget",
+      "label": "Confirms the budget",
+      "options": [
+       {
+        "id": "you",
+        "text": "You"
+       },
+       {
+        "id": "ifeoma",
+        "text": "Ifeoma Adebayo"
+       },
+       {
+        "id": "tunde",
+        "text": "Tunde Bello"
+       },
+       {
+        "id": "amaka",
+        "text": "Amaka Obi"
+       },
+       {
+        "id": "kemi",
+        "text": "Kemi Adeyemi"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "key": "p3_order",
+    "type": "order",
+    "ruleset": "agenda",
+    "screen": "prepare",
+    "section": "p3",
+    "label": "Put the agenda items in order.",
+    "items": [
+     {
+      "id": "budget",
+      "text": "Budget check"
+     },
+     {
+      "id": "complaint",
+      "text": "Complaint trend"
+     },
+     {
+      "id": "decide",
+      "text": "Decision, actions and close"
+     },
+     {
+      "id": "opening",
+      "text": "Opening and purpose"
+     },
+     {
+      "id": "option",
+      "text": "Option comparison"
+     }
+    ]
+   },
+   {
+    "key": "p3_minutes",
+    "type": "minutes",
+    "screen": "prepare",
+    "section": "p3",
+    "label": "Give each item its minutes. The meeting is 30 minutes.",
+    "total": 30,
+    "ids": [
+     "opening",
+     "complaint",
+     "option",
+     "budget",
+     "decide"
+    ]
+   },
+   {
+    "key": "p3_papers",
+    "type": "ticks",
+    "screen": "prepare",
+    "section": "p3",
+    "label": "Tick the papers you attach.",
+    "options": [
+     {
+      "id": "r4",
+      "text": "Option comparison (R4)"
+     },
+     {
+      "id": "r5",
+      "text": "Q1 budget note (R5)"
+     },
+     {
+      "id": "r6",
+      "text": "Complaint trend summary (R6)"
+     },
+     {
+      "id": "log",
+      "text": "Customer complaint log (names and phone numbers)"
+     },
+     {
+      "id": "staff",
+      "text": "Staff directory"
+     }
+    ]
+   },
+   {
+    "key": "p4_slot",
+    "type": "single",
+    "screen": "prepare",
+    "section": "p4",
+    "label": "Choose the slot for the meeting.",
+    "options": [
+     {
+      "id": "wed14",
+      "text": "Wednesday 25 November, 14:00"
+     },
+     {
+      "id": "thu10",
+      "text": "Thursday 26 November, 10:00"
+     },
+     {
+      "id": "thu15",
+      "text": "Thursday 26 November, 15:00"
+     },
+     {
+      "id": "fri09",
+      "text": "Friday 27 November, 09:00"
+     },
+     {
+      "id": "fri15",
+      "text": "Friday 27 November, 15:00"
+     }
+    ]
+   },
+   {
+    "key": "p4_invitation",
+    "type": "ticks",
+    "ui": "invitation",
+    "screen": "prepare",
+    "section": "p4",
+    "label": "Tick what the invitation includes.",
+    "options": [
+     {
+      "id": "subject",
+      "text": "Subject naming the purpose and date"
+     },
+     {
+      "id": "purpose",
+      "text": "Purpose and the decision needed"
+     },
+     {
+      "id": "when",
+      "text": "Date, start time, duration and time zone (WAT)"
+     },
+     {
+      "id": "link",
+      "text": "Joining link"
+     },
+     {
+      "id": "agenda",
+      "text": "Agenda and papers attached"
+     },
+     {
+      "id": "contrib",
+      "text": "What each person contributes and prepares"
+     },
+     {
+      "id": "access",
+      "text": "Contact for access needs"
+     },
+     {
+      "id": "prices",
+      "text": "Both couriers' full price lists in the email body"
+     },
+     {
+      "id": "reclink",
+      "text": "A link to the meeting recording"
+     }
+    ]
+   },
+   {
+    "key": "p5_access",
+    "type": "single",
+    "screen": "prepare",
+    "section": "p5",
+    "label": "How do people get into the meeting?",
+    "options": [
+     {
+      "id": "access_name",
+      "text": "Waiting room on. Admit by name against the invitee list."
+     },
+     {
+      "id": "access_link",
+      "text": "Waiting room on. Admit anyone with the link."
+     },
+     {
+      "id": "access_open",
+      "text": "Open link, no waiting room."
+     }
+    ]
+   },
+   {
+    "key": "p5_sharing",
+    "type": "single",
+    "screen": "prepare",
+    "section": "p5",
+    "label": "How is screen sharing set?",
+    "options": [
+     {
+      "id": "share_host",
+      "text": "Sharing limited to the host. Give Tunde presenter rights for the option comparison."
+     },
+     {
+      "id": "share_all",
+      "text": "Everyone can share at any time."
+     },
+     {
+      "id": "share_hostall",
+      "text": "The host shares and presents everything."
+     }
+    ]
+   },
+   {
+    "key": "p5_recording",
+    "type": "single",
+    "screen": "prepare",
+    "section": "p5",
+    "label": "What do you do about recording?",
+    "recordingIds": [
+     "rec_minutes",
+     "rec_shared",
+     "rec_silent"
+    ],
+    "options": [
+     {
+      "id": "rec_minutes",
+      "text": "Record to check the minutes only. Announce it at the start. Limit access to the host. Delete it 30 days after the minutes are approved."
+     },
+     {
+      "id": "rec_none",
+      "text": "Do not record. Take the minutes live."
+     },
+     {
+      "id": "rec_shared",
+      "text": "Record, announce it, and store it on the shared drive for all staff."
+     },
+     {
+      "id": "rec_silent",
+      "text": "Record without announcing it."
+     }
+    ]
+   }
+  ]
+ }
+}

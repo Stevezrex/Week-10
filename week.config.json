@@ -1,0 +1,16 @@
+{
+  "week": 10,
+  "title": "Run the client meeting",
+  "minutes": 120,
+  "attempts": 3,
+  "marking": "server",
+  "formName": "week10-results",
+  "answerColumns": [
+    "p1_purpose","p1_outcome","p2_invitees","p2_roles","p3_order","p3_minutes","p3_papers",
+    "p4_slot","p4_invitation","p5_access","p5_sharing","p5_recording",
+    "m2_steps","m3_absent","m4_record","m5_paperless","m5_overrun","m6_action",
+    "opening_statement","closing_recap",
+    "r_attendance","r_headings","r_style","minute_text",
+    "d1","d2","a1","a2","a3","recipients","attachments","followup_message"
+  ]
+}

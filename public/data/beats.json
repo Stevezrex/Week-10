@@ -1,0 +1,379 @@
+{
+ "beats": [
+  {
+   "id": "b1",
+   "n": 1,
+   "time": "10:00",
+   "title": "Opening",
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Good morning."
+    },
+    {
+     "kind": "speech",
+     "who": "tunde",
+     "text": "Morning. Can everyone hear me?"
+    },
+    {
+     "kind": "speech",
+     "who": "kemi",
+     "text": "Morning all, I'm in."
+    },
+    {
+     "kind": "system",
+     "text": "Amaka Obi has not joined."
+    }
+   ],
+   "prompts": [
+    {
+     "key": "opening_statement",
+     "type": "text",
+     "typed": true,
+     "screen": "meeting",
+     "label": "Open the meeting. Type what you say.",
+     "hint": "Type your opening."
+    }
+   ]
+  },
+  {
+   "id": "b2",
+   "n": 2,
+   "time": "10:03",
+   "title": "Echo",
+   "badges": {
+    "tunde": "echo"
+   },
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Let's start with the complaint numbers. Kemi?"
+    },
+    {
+     "kind": "speech",
+     "who": "kemi",
+     "text": "Late delivery complaints were 31% of tickets in October, up from 22% in September. Most are from Abuja and Port Harcourt orders."
+    },
+    {
+     "kind": "chat",
+     "who": "kemi",
+     "text": "Tunde, there is an echo on your line."
+    },
+    {
+     "kind": "chat",
+     "who": "ifeoma",
+     "text": "I can hear myself too."
+    }
+   ],
+   "prompts": [
+    {
+     "key": "m2_steps",
+     "type": "order",
+     "ruleset": "steps",
+     "screen": "meeting",
+     "label": "Put the steps in the order you would take them.",
+     "items": [
+      {
+       "id": "s3",
+       "text": "Ask Tunde whether he is joined on a second device"
+      },
+      {
+       "id": "s6",
+       "text": "End the meeting and restart it"
+      },
+      {
+       "id": "s2",
+       "text": "Mute Tunde from the host controls"
+      },
+      {
+       "id": "s5",
+       "text": "Ask Tunde to leave and rejoin, or join by phone"
+      },
+      {
+       "id": "s1",
+       "text": "Ask in chat who else hears the echo"
+      },
+      {
+       "id": "s4",
+       "text": "Ask Tunde to use headphones or move away from his speaker"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b3",
+   "n": 3,
+   "time": "10:06",
+   "title": "Budget holder absent",
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Is Amaka joining? We can't decide anything on budget without her."
+    },
+    {
+     "kind": "speech",
+     "who": "tunde",
+     "text": "I can take the comparison first if that helps."
+    },
+    {
+     "kind": "system",
+     "text": "Participants: Amaka Obi is invited and has not joined."
+    }
+   ],
+   "prompts": [
+    {
+     "key": "m3_absent",
+     "type": "single",
+     "screen": "meeting",
+     "label": "What do you do?",
+     "options": [
+      {
+       "id": "absent_msg",
+       "text": "Message Amaka for her arrival time. Start with the complaint trend and the option comparison. Move the budget check to the end."
+      },
+      {
+       "id": "absent_delay",
+       "text": "Delay the start by 10 minutes."
+      },
+      {
+       "id": "absent_decide",
+       "text": "Start and decide without Finance. Ask Amaka to confirm later."
+      },
+      {
+       "id": "absent_cancel",
+       "text": "Cancel the meeting."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "n": 4,
+   "time": "10:12",
+   "title": "Recommendation",
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "tunde",
+     "text": "Having looked at everything, I think we go with Eko Express. It is about ₦1.9m a month cheaper."
+    },
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Sounds good to me."
+    },
+    {
+     "kind": "speech",
+     "who": "kemi",
+     "text": "Can I flag Abuja and Port Harcourt before we lock that in?"
+    },
+    {
+     "kind": "system",
+     "text": "10:14 Amaka Obi joined.",
+     "effect": "join:amaka"
+    },
+    {
+     "kind": "speech",
+     "who": "amaka",
+     "text": "Sorry, I was on another call. Where are we?"
+    }
+   ],
+   "prompts": [
+    {
+     "key": "m4_record",
+     "type": "single",
+     "screen": "meeting",
+     "label": "What do you record for this item?",
+     "options": [
+      {
+       "id": "rc_reco",
+       "text": "Recommendation: Eko Express (Tunde Bello). Ifeoma Adebayo indicated support. Decision pending budget confirmation by Amaka Obi."
+      },
+      {
+       "id": "rc_dec_subj",
+       "text": "Decision: Eko Express approved subject to budget."
+      },
+      {
+       "id": "rc_disc",
+       "text": "Discussion on courier options."
+      },
+      {
+       "id": "rc_dec",
+       "text": "Decision: Eko Express approved."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b5",
+   "n": 5,
+   "time": "10:18",
+   "title": "Paperless item and overrun",
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "amaka",
+     "text": "The Q1 courier line is ₦8.5m a month. Eko at ₦7.44m fits. SwiftLane at ₦9.38m would need Chinedu's approval."
+    },
+    {
+     "kind": "speech",
+     "who": "kemi",
+     "text": "Before we close, can we also switch our packaging supplier? Same logic, it is cheaper."
+    },
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Is there a paper on that?"
+    },
+    {
+     "kind": "speech",
+     "who": "kemi",
+     "text": "Not yet."
+    },
+    {
+     "kind": "system",
+     "text": "Agenda: the option comparison is 4 minutes over.",
+     "effect": "overrun"
+    }
+   ],
+   "prompts": [
+    {
+     "key": "m5_paperless",
+     "type": "single",
+     "screen": "meeting",
+     "label": "Kemi's packaging item has no paper.",
+     "options": [
+      {
+       "id": "pp_log",
+       "text": "Thank Kemi. Log it for a future agenda. Ask her to send a paper first."
+      },
+      {
+       "id": "pp_email",
+       "text": "Tell her to email you later."
+      },
+      {
+       "id": "pp_add",
+       "text": "Add 5 minutes for it now."
+      }
+     ]
+    },
+    {
+     "key": "m5_overrun",
+     "type": "single",
+     "screen": "meeting",
+     "label": "The meeting is 4 minutes over.",
+     "options": [
+      {
+       "id": "ov_sum",
+       "text": "Summarize the point reached, take the remaining discussion in the decision item, and move on."
+      },
+      {
+       "id": "ov_cut",
+       "text": "Cut the discussion and skip the budget check."
+      },
+      {
+       "id": "ov_run",
+       "text": "Let it run."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "n": 6,
+   "time": "10:26",
+   "title": "Vague action",
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "tunde",
+     "text": "Eko have told me informally they can do four days to Abuja and Port Harcourt. Nothing in writing."
+    },
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Right. We go with Eko Express from 4 January, as long as they confirm Abuja and Port Harcourt delivery in writing. Amaka, send me the budget line in writing. And someone should chase Eko about the delivery times."
+    }
+   ],
+   "afterKey": "m6_action",
+   "afterLines": [
+    {
+     "kind": "speech",
+     "who": "tunde",
+     "text": "I'll take that."
+    },
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "Tunde, by Tuesday. Kemi, send me the packaging paper by Wednesday. We meet again Thursday at 10."
+    },
+    {
+     "kind": "speech",
+     "who": "amaka",
+     "text": "I'll send the budget line on Monday."
+    }
+   ],
+   "prompts": [
+    {
+     "key": "m6_action",
+     "type": "single",
+     "screen": "meeting",
+     "label": "What do you do about \"someone should chase Eko\"?",
+     "options": [
+      {
+       "id": "act_ask",
+       "text": "Ask: Who owns this, and by what date? Record the answer."
+      },
+      {
+       "id": "act_tunde",
+       "text": "Assign it to Tunde with a deadline, without asking Ifeoma."
+      },
+      {
+       "id": "act_self",
+       "text": "Assign it to yourself."
+      },
+      {
+       "id": "act_record",
+       "text": "Record \"Eko to be chased.\""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "n": 7,
+   "time": "10:29",
+   "title": "Close",
+   "lines": [
+    {
+     "kind": "speech",
+     "who": "ifeoma",
+     "text": "We are nearly out of time. Please close."
+    },
+    {
+     "kind": "speech",
+     "who": "tunde",
+     "text": "I have to drop at half past."
+    }
+   ],
+   "prompts": [
+    {
+     "key": "closing_recap",
+     "type": "text",
+     "typed": true,
+     "screen": "meeting",
+     "label": "Close the meeting. Type the recap you give.",
+     "hint": "Type your closing recap."
+    }
+   ]
+  }
+ ]
+}

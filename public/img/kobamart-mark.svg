@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B7552"/><stop offset=".5" stop-color="#0B3D2E"/><stop offset="1" stop-color="#052319"/></linearGradient>
+<linearGradient id="gl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".42"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".6" stop-color="#E4ECE7"/><stop offset="1" stop-color="#B9CBC0"/></linearGradient>
+<linearGradient id="bagtop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CAD8CF"/><stop offset="1" stop-color="#EEF3EF"/></linearGradient>
+<linearGradient id="amb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD35A"/><stop offset=".5" stop-color="#F2A900"/><stop offset="1" stop-color="#B87A00"/></linearGradient>
+<filter id="ds" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="2.6" flood-color="#021510" flood-opacity=".55"/></filter>
+<filter id="ds2" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#021510" flood-opacity=".5"/></filter>
+</defs>
+<rect x="3" y="3" width="90" height="90" rx="23" fill="url(#g)"/>
+<rect x="3.6" y="3.6" width="88.8" height="88.8" rx="22.4" fill="none" stroke="#7BE0B4" stroke-opacity=".28" stroke-width="1.2"/>
+<path d="M3 27a24 24 0 0 1 24-24h42a24 24 0 0 1 24 24v18C70 58 26 58 3 45z" fill="url(#gl)"/>
+<ellipse cx="48" cy="73" rx="26" ry="5" fill="#021510" opacity=".35"/>
+<path d="M33 36l-4-4M63 36l4-4" stroke="none"/>
+<g filter="url(#ds)">
+<path d="M26 40h44l-5 32H31z" fill="url(#bag)"/>
+<path d="M26 40h44l-.9 5.6H26.9z" fill="url(#bagtop)"/>
+<path d="M65 40l-5 32h5l5-32z" fill="#0B3D2E" opacity=".1"/>
+<path d="M30 49c10 4 26 4 36 0" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="1.2"/>
+</g>
+<g filter="url(#ds2)" fill="none" stroke-linecap="round">
+<path d="M37 40c-1-8 1-14 5-17M59 40c1-8-1-14-5-17" stroke="url(#amb)" stroke-width="5.2"/>
+<path d="M37.6 38c-.8-6 .6-11 3.6-14.4M58.4 38c.8-6-.6-11-3.6-14.4" stroke="#fff" stroke-opacity=".55" stroke-width="1.2"/>
+</g>
+</svg>

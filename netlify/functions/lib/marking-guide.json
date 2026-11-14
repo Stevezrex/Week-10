@@ -1,0 +1,1492 @@
+{
+ "order": [
+  "p1_purpose",
+  "p1_outcome",
+  "p2_invitees",
+  "p2_roles",
+  "p3_order",
+  "p3_minutes",
+  "p3_papers",
+  "p4_slot",
+  "p4_invitation",
+  "p5_access",
+  "p5_sharing",
+  "p5_recording",
+  "opening_statement",
+  "m2_steps",
+  "m3_absent",
+  "m4_record",
+  "m5_paperless",
+  "m5_overrun",
+  "m6_action",
+  "closing_recap",
+  "r_attendance",
+  "r_headings",
+  "r_style",
+  "minute_text",
+  "d1",
+  "d2",
+  "a1",
+  "a2",
+  "a3",
+  "recipients",
+  "attachments",
+  "followup_message"
+ ],
+ "items": {
+  "p1_purpose": {
+   "key": "p1_purpose",
+   "type": "single",
+   "screen": "prepare",
+   "section": "p1",
+   "label": "What is the purpose of the meeting?",
+   "options": [
+    {
+     "id": "decide",
+     "text": "Decide which courier partner KobaMart uses from 4 January 2027, within the approved budget line.",
+     "marks": 3
+    },
+    {
+     "id": "compare",
+     "text": "Compare SwiftLane and Eko Express and agree the next steps.",
+     "marks": 1
+    },
+    {
+     "id": "discuss",
+     "text": "Discuss courier options and complaints.",
+     "marks": 0
+    }
+   ]
+  },
+  "p1_outcome": {
+   "key": "p1_outcome",
+   "type": "single",
+   "screen": "prepare",
+   "section": "p1",
+   "label": "What outcome do you need from the meeting?",
+   "options": [
+    {
+     "id": "decision",
+     "text": "A decision",
+     "marks": 3
+    },
+    {
+     "id": "recommendation",
+     "text": "A recommendation for approval at a later meeting",
+     "marks": 1
+    },
+    {
+     "id": "info",
+     "text": "An information update",
+     "marks": 0
+    }
+   ]
+  },
+  "p2_invitees": {
+   "key": "p2_invitees",
+   "type": "composite",
+   "ui": "people_status",
+   "screen": "prepare",
+   "section": "p2",
+   "label": "Who do you invite, and how?",
+   "fields": [
+    {
+     "id": "ifeoma",
+     "label": "Ifeoma Adebayo",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0.5
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "tunde",
+     "label": "Tunde Bello",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0.5
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "amaka",
+     "label": "Amaka Obi",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0.5
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "kemi",
+     "label": "Kemi Adeyemi",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0.5
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0.5
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "chinedu",
+     "label": "Chinedu Okeke",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0.5
+      }
+     ]
+    },
+    {
+     "id": "sade",
+     "label": "Sade Lawal",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0.5
+      }
+     ]
+    },
+    {
+     "id": "femi",
+     "label": "Femi Ajayi",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0.5
+      }
+     ]
+    },
+    {
+     "id": "dayo",
+     "label": "Dayo Peters",
+     "options": [
+      {
+       "id": "req",
+       "text": "Required",
+       "marks": 0
+      },
+      {
+       "id": "opt",
+       "text": "Optional",
+       "marks": 0
+      },
+      {
+       "id": "no",
+       "text": "Not invited",
+       "marks": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  "p2_roles": {
+   "key": "p2_roles",
+   "type": "composite",
+   "ui": "roles",
+   "screen": "prepare",
+   "section": "p2",
+   "label": "Who does what in the meeting?",
+   "fixed": {
+    "label": "Chair, host and minute taker",
+    "value": "You"
+   },
+   "fields": [
+    {
+     "id": "decide",
+     "label": "Makes the decision",
+     "options": [
+      {
+       "id": "you",
+       "text": "You",
+       "marks": 0
+      },
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo",
+       "marks": 1
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello",
+       "marks": 0
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi",
+       "marks": 0
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "present",
+     "label": "Presents the options",
+     "options": [
+      {
+       "id": "you",
+       "text": "You",
+       "marks": 0
+      },
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo",
+       "marks": 0
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello",
+       "marks": 1
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi",
+       "marks": 0
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "budget",
+     "label": "Confirms the budget",
+     "options": [
+      {
+       "id": "you",
+       "text": "You",
+       "marks": 0
+      },
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo",
+       "marks": 0
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello",
+       "marks": 0
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi",
+       "marks": 1
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi",
+       "marks": 0
+      }
+     ]
+    }
+   ]
+  },
+  "p3_order": {
+   "key": "p3_order",
+   "type": "order",
+   "ruleset": "agenda",
+   "screen": "prepare",
+   "section": "p3",
+   "label": "Put the agenda items in order.",
+   "items": [
+    {
+     "id": "budget",
+     "text": "Budget check"
+    },
+    {
+     "id": "complaint",
+     "text": "Complaint trend"
+    },
+    {
+     "id": "decide",
+     "text": "Decision, actions and close"
+    },
+    {
+     "id": "opening",
+     "text": "Opening and purpose"
+    },
+    {
+     "id": "option",
+     "text": "Option comparison"
+    }
+   ],
+   "rules": {
+    "first": "opening",
+    "last": "decide",
+    "before": [
+     "option",
+     "budget"
+    ]
+   }
+  },
+  "p3_minutes": {
+   "key": "p3_minutes",
+   "type": "minutes",
+   "screen": "prepare",
+   "section": "p3",
+   "label": "Give each item its minutes. The meeting is 30 minutes.",
+   "total": 30,
+   "ids": [
+    "opening",
+    "complaint",
+    "option",
+    "budget",
+    "decide"
+   ],
+   "rules": {
+    "decideMin": 6,
+    "optionBudgetMin": 12
+   }
+  },
+  "p3_papers": {
+   "key": "p3_papers",
+   "type": "ticks",
+   "screen": "prepare",
+   "section": "p3",
+   "label": "Tick the papers you attach.",
+   "options": [
+    {
+     "id": "r4",
+     "text": "Option comparison (R4)"
+    },
+    {
+     "id": "r5",
+     "text": "Q1 budget note (R5)"
+    },
+    {
+     "id": "r6",
+     "text": "Complaint trend summary (R6)"
+    },
+    {
+     "id": "log",
+     "text": "Customer complaint log (names and phone numbers)"
+    },
+    {
+     "id": "staff",
+     "text": "Staff directory"
+    }
+   ],
+   "correct": [
+    "r4",
+    "r5"
+   ],
+   "max": 2
+  },
+  "p4_slot": {
+   "key": "p4_slot",
+   "type": "single",
+   "screen": "prepare",
+   "section": "p4",
+   "label": "Choose the slot for the meeting.",
+   "options": [
+    {
+     "id": "wed14",
+     "text": "Wednesday 25 November, 14:00",
+     "marks": 0
+    },
+    {
+     "id": "thu10",
+     "text": "Thursday 26 November, 10:00",
+     "marks": 2
+    },
+    {
+     "id": "thu15",
+     "text": "Thursday 26 November, 15:00",
+     "marks": 0
+    },
+    {
+     "id": "fri09",
+     "text": "Friday 27 November, 09:00",
+     "marks": 1
+    },
+    {
+     "id": "fri15",
+     "text": "Friday 27 November, 15:00",
+     "marks": 0
+    }
+   ]
+  },
+  "p4_invitation": {
+   "key": "p4_invitation",
+   "type": "ticks",
+   "ui": "invitation",
+   "screen": "prepare",
+   "section": "p4",
+   "label": "Tick what the invitation includes.",
+   "options": [
+    {
+     "id": "subject",
+     "text": "Subject naming the purpose and date"
+    },
+    {
+     "id": "purpose",
+     "text": "Purpose and the decision needed"
+    },
+    {
+     "id": "when",
+     "text": "Date, start time, duration and time zone (WAT)"
+    },
+    {
+     "id": "link",
+     "text": "Joining link"
+    },
+    {
+     "id": "agenda",
+     "text": "Agenda and papers attached"
+    },
+    {
+     "id": "contrib",
+     "text": "What each person contributes and prepares"
+    },
+    {
+     "id": "access",
+     "text": "Contact for access needs"
+    },
+    {
+     "id": "prices",
+     "text": "Both couriers' full price lists in the email body"
+    },
+    {
+     "id": "reclink",
+     "text": "A link to the meeting recording"
+    }
+   ],
+   "correct": [
+    "subject",
+    "purpose",
+    "when",
+    "link",
+    "agenda",
+    "contrib",
+    "access"
+   ],
+   "max": 3
+  },
+  "p5_access": {
+   "key": "p5_access",
+   "type": "single",
+   "screen": "prepare",
+   "section": "p5",
+   "label": "How do people get into the meeting?",
+   "options": [
+    {
+     "id": "access_name",
+     "text": "Waiting room on. Admit by name against the invitee list.",
+     "marks": 2
+    },
+    {
+     "id": "access_link",
+     "text": "Waiting room on. Admit anyone with the link.",
+     "marks": 1
+    },
+    {
+     "id": "access_open",
+     "text": "Open link, no waiting room.",
+     "marks": 0
+    }
+   ]
+  },
+  "p5_sharing": {
+   "key": "p5_sharing",
+   "type": "single",
+   "screen": "prepare",
+   "section": "p5",
+   "label": "How is screen sharing set?",
+   "options": [
+    {
+     "id": "share_host",
+     "text": "Sharing limited to the host. Give Tunde presenter rights for the option comparison.",
+     "marks": 1
+    },
+    {
+     "id": "share_all",
+     "text": "Everyone can share at any time.",
+     "marks": 0
+    },
+    {
+     "id": "share_hostall",
+     "text": "The host shares and presents everything.",
+     "marks": 0
+    }
+   ]
+  },
+  "p5_recording": {
+   "key": "p5_recording",
+   "type": "single",
+   "screen": "prepare",
+   "section": "p5",
+   "label": "What do you do about recording?",
+   "recordingIds": [
+    "rec_minutes",
+    "rec_shared",
+    "rec_silent"
+   ],
+   "options": [
+    {
+     "id": "rec_minutes",
+     "text": "Record to check the minutes only. Announce it at the start. Limit access to the host. Delete it 30 days after the minutes are approved.",
+     "marks": 2
+    },
+    {
+     "id": "rec_none",
+     "text": "Do not record. Take the minutes live.",
+     "marks": 2
+    },
+    {
+     "id": "rec_shared",
+     "text": "Record, announce it, and store it on the shared drive for all staff.",
+     "marks": 1
+    },
+    {
+     "id": "rec_silent",
+     "text": "Record without announcing it.",
+     "marks": 0
+    }
+   ]
+  },
+  "opening_statement": {
+   "key": "opening_statement",
+   "type": "text",
+   "typed": true,
+   "screen": "meeting",
+   "label": "Open the meeting. Type what you say.",
+   "hint": "Type your opening."
+  },
+  "m2_steps": {
+   "key": "m2_steps",
+   "type": "order",
+   "ruleset": "steps",
+   "screen": "meeting",
+   "label": "Put the steps in the order you would take them.",
+   "items": [
+    {
+     "id": "s3",
+     "text": "Ask Tunde whether he is joined on a second device"
+    },
+    {
+     "id": "s6",
+     "text": "End the meeting and restart it"
+    },
+    {
+     "id": "s2",
+     "text": "Mute Tunde from the host controls"
+    },
+    {
+     "id": "s5",
+     "text": "Ask Tunde to leave and rejoin, or join by phone"
+    },
+    {
+     "id": "s1",
+     "text": "Ask in chat who else hears the echo"
+    },
+    {
+     "id": "s4",
+     "text": "Ask Tunde to use headphones or move away from his speaker"
+    }
+   ],
+   "rules": {
+    "order": [
+     "s1",
+     "s2",
+     "s3",
+     "s4",
+     "s5"
+    ],
+    "last": "s6"
+   }
+  },
+  "m3_absent": {
+   "key": "m3_absent",
+   "type": "single",
+   "screen": "meeting",
+   "label": "What do you do?",
+   "options": [
+    {
+     "id": "absent_msg",
+     "text": "Message Amaka for her arrival time. Start with the complaint trend and the option comparison. Move the budget check to the end.",
+     "marks": 5
+    },
+    {
+     "id": "absent_delay",
+     "text": "Delay the start by 10 minutes.",
+     "marks": 2
+    },
+    {
+     "id": "absent_decide",
+     "text": "Start and decide without Finance. Ask Amaka to confirm later.",
+     "marks": 1
+    },
+    {
+     "id": "absent_cancel",
+     "text": "Cancel the meeting.",
+     "marks": 0
+    }
+   ]
+  },
+  "m4_record": {
+   "key": "m4_record",
+   "type": "single",
+   "screen": "meeting",
+   "label": "What do you record for this item?",
+   "options": [
+    {
+     "id": "rc_reco",
+     "text": "Recommendation: Eko Express (Tunde Bello). Ifeoma Adebayo indicated support. Decision pending budget confirmation by Amaka Obi.",
+     "marks": 5
+    },
+    {
+     "id": "rc_dec_subj",
+     "text": "Decision: Eko Express approved subject to budget.",
+     "marks": 2
+    },
+    {
+     "id": "rc_disc",
+     "text": "Discussion on courier options.",
+     "marks": 2
+    },
+    {
+     "id": "rc_dec",
+     "text": "Decision: Eko Express approved.",
+     "marks": 0
+    }
+   ]
+  },
+  "m5_paperless": {
+   "key": "m5_paperless",
+   "type": "single",
+   "screen": "meeting",
+   "label": "Kemi's packaging item has no paper.",
+   "options": [
+    {
+     "id": "pp_log",
+     "text": "Thank Kemi. Log it for a future agenda. Ask her to send a paper first.",
+     "marks": 3
+    },
+    {
+     "id": "pp_email",
+     "text": "Tell her to email you later.",
+     "marks": 1
+    },
+    {
+     "id": "pp_add",
+     "text": "Add 5 minutes for it now.",
+     "marks": 0
+    }
+   ]
+  },
+  "m5_overrun": {
+   "key": "m5_overrun",
+   "type": "single",
+   "screen": "meeting",
+   "label": "The meeting is 4 minutes over.",
+   "options": [
+    {
+     "id": "ov_sum",
+     "text": "Summarize the point reached, take the remaining discussion in the decision item, and move on.",
+     "marks": 2
+    },
+    {
+     "id": "ov_cut",
+     "text": "Cut the discussion and skip the budget check.",
+     "marks": 1
+    },
+    {
+     "id": "ov_run",
+     "text": "Let it run.",
+     "marks": 0
+    }
+   ]
+  },
+  "m6_action": {
+   "key": "m6_action",
+   "type": "single",
+   "screen": "meeting",
+   "label": "What do you do about \"someone should chase Eko\"?",
+   "options": [
+    {
+     "id": "act_ask",
+     "text": "Ask: Who owns this, and by what date? Record the answer.",
+     "marks": 4
+    },
+    {
+     "id": "act_tunde",
+     "text": "Assign it to Tunde with a deadline, without asking Ifeoma.",
+     "marks": 2
+    },
+    {
+     "id": "act_self",
+     "text": "Assign it to yourself.",
+     "marks": 1
+    },
+    {
+     "id": "act_record",
+     "text": "Record \"Eko to be chased.\"",
+     "marks": 0
+    }
+   ]
+  },
+  "closing_recap": {
+   "key": "closing_recap",
+   "type": "text",
+   "typed": true,
+   "screen": "meeting",
+   "label": "Close the meeting. Type the recap you give.",
+   "hint": "Type your closing recap."
+  },
+  "r_attendance": {
+   "key": "r_attendance",
+   "type": "single",
+   "screen": "records",
+   "section": "minutes",
+   "label": "Attendance line",
+   "options": [
+    {
+     "id": "att_ok",
+     "text": "Present: Ifeoma Adebayo, Tunde Bello, Kemi Adeyemi, Amaka Obi (joined 10:14). In attendance: minute taker. Apologies: none.",
+     "marks": 1
+    },
+    {
+     "id": "att_all",
+     "text": "Present: all four attendees. Apologies: none.",
+     "marks": 0
+    },
+    {
+     "id": "att_apol",
+     "text": "Present: Ifeoma, Tunde, Kemi. Apologies: Amaka Obi.",
+     "marks": 0
+    }
+   ]
+  },
+  "r_headings": {
+   "key": "r_headings",
+   "type": "single",
+   "screen": "records",
+   "section": "minutes",
+   "label": "Item headings",
+   "options": [
+    {
+     "id": "hd_ok",
+     "text": "1 Opening and purpose, 2 Complaint trend, 3 Option comparison, 4 Budget check, 5 Decision and actions, 6 Other business and next meeting",
+     "marks": 1
+    },
+    {
+     "id": "hd_decision",
+     "text": "1 Decision, 2 Actions, 3 Option comparison, 4 Budget check, 5 Complaint trend",
+     "marks": 0
+    },
+    {
+     "id": "hd_alpha",
+     "text": "Items in alphabetical order",
+     "marks": 0
+    }
+   ]
+  },
+  "r_style": {
+   "key": "r_style",
+   "type": "single",
+   "screen": "records",
+   "section": "minutes",
+   "label": "Wording style",
+   "options": [
+    {
+     "id": "st_ok",
+     "text": "3.2 Eko Express was recommended by the Logistics Lead. 5.1 Decision (D1): Eko Express was approved from 4 January 2027. 5.2 Action (A1): the Logistics Lead would obtain written confirmation by 1 December 2026.",
+     "marks": 1
+    },
+    {
+     "id": "st_we",
+     "text": "We decided to go with Eko Express. Tunde will get the confirmation by Tuesday.",
+     "marks": 0
+    },
+    {
+     "id": "st_notes",
+     "text": "The meeting notes that Eko Express is approved.",
+     "marks": 0
+    }
+   ]
+  },
+  "minute_text": {
+   "key": "minute_text",
+   "type": "text",
+   "typed": true,
+   "screen": "records",
+   "section": "minutes",
+   "label": "Write the minute for items 3 to 5: option comparison, budget check, and decision and actions.",
+   "hint": "Write the minute in your own words."
+  },
+  "d1": {
+   "key": "d1",
+   "type": "composite",
+   "ui": "decision",
+   "screen": "records",
+   "section": "decisions",
+   "label": "Decision D1",
+   "ref": "D1",
+   "fields": [
+    {
+     "id": "wording",
+     "label": "Wording",
+     "options": [
+      {
+       "id": "w_full",
+       "text": "Eko Express approved as the Q1 courier partner from 4 January 2027, subject to written confirmation of delivery to Abuja and Port Harcourt within 4 days",
+       "marks": 2
+      },
+      {
+       "id": "w_plain",
+       "text": "Eko Express approved as courier partner",
+       "marks": 1
+      },
+      {
+       "id": "w_reco",
+       "text": "Eko Express recommended",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "authority",
+     "label": "Authority",
+     "options": [
+      {
+       "id": "au_ifeoma",
+       "text": "Ifeoma Adebayo, Head of Operations",
+       "marks": 1
+      },
+      {
+       "id": "au_tunde",
+       "text": "Tunde Bello, Logistics Lead",
+       "marks": 0
+      },
+      {
+       "id": "au_amaka",
+       "text": "Amaka Obi, Finance Manager",
+       "marks": 0
+      },
+      {
+       "id": "au_chinedu",
+       "text": "Chinedu Okeke, CEO",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "method",
+     "label": "Method",
+     "options": [
+      {
+       "id": "me_auth",
+       "text": "Stated by the decision maker after discussion",
+       "marks": 0
+      },
+      {
+       "id": "me_vote",
+       "text": "Vote of those present",
+       "marks": 0
+      },
+      {
+       "id": "me_agree",
+       "text": "Agreed by all present",
+       "marks": 0
+      },
+      {
+       "id": "me_chair",
+       "text": "Decided by the chair",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "status",
+     "label": "Status",
+     "options": [
+      {
+       "id": "proposed",
+       "text": "Proposed",
+       "marks": 0
+      },
+      {
+       "id": "approved",
+       "text": "Approved",
+       "marks": 1
+      },
+      {
+       "id": "rejected",
+       "text": "Rejected",
+       "marks": 0
+      },
+      {
+       "id": "deferred",
+       "text": "Deferred",
+       "marks": 0
+      },
+      {
+       "id": "referred",
+       "text": "Referred",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "condition",
+     "label": "Conditions",
+     "options": [
+      {
+       "id": "co_eko",
+       "text": "Written confirmation from Eko Express of delivery to Abuja and Port Harcourt within 4 days",
+       "marks": 1
+      },
+      {
+       "id": "co_budget",
+       "text": "Written confirmation of the Q1 budget line from Finance",
+       "marks": 0
+      },
+      {
+       "id": "co_ceo",
+       "text": "Approval from the CEO",
+       "marks": 0
+      },
+      {
+       "id": "co_none",
+       "text": "None",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "action",
+     "label": "Related actions",
+     "options": [
+      {
+       "id": "a1",
+       "text": "A1",
+       "marks": 0
+      },
+      {
+       "id": "a2",
+       "text": "A2",
+       "marks": 0
+      },
+      {
+       "id": "a3",
+       "text": "A3",
+       "marks": 0
+      }
+     ]
+    }
+   ]
+  },
+  "d2": {
+   "key": "d2",
+   "type": "composite",
+   "ui": "decision",
+   "screen": "records",
+   "section": "decisions",
+   "label": "Decision D2",
+   "ref": "D2",
+   "fields": [
+    {
+     "id": "wording",
+     "label": "Wording",
+     "options": [
+      {
+       "id": "w_defer",
+       "text": "Packaging supplier change deferred until Kemi Adeyemi sends a paper",
+       "marks": 1
+      },
+      {
+       "id": "w_approve",
+       "text": "Packaging supplier change approved",
+       "marks": 0
+      },
+      {
+       "id": "w_reject",
+       "text": "Packaging supplier change rejected",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "status",
+     "label": "Status",
+     "options": [
+      {
+       "id": "proposed",
+       "text": "Proposed",
+       "marks": 0
+      },
+      {
+       "id": "approved",
+       "text": "Approved",
+       "marks": 0
+      },
+      {
+       "id": "rejected",
+       "text": "Rejected",
+       "marks": 0
+      },
+      {
+       "id": "deferred",
+       "text": "Deferred",
+       "marks": 1
+      },
+      {
+       "id": "referred",
+       "text": "Referred",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "action",
+     "label": "Related actions",
+     "options": [
+      {
+       "id": "a1",
+       "text": "A1",
+       "marks": 0
+      },
+      {
+       "id": "a2",
+       "text": "A2",
+       "marks": 0
+      },
+      {
+       "id": "a3",
+       "text": "A3",
+       "marks": 1
+      }
+     ]
+    }
+   ]
+  },
+  "a1": {
+   "key": "a1",
+   "type": "composite",
+   "ui": "action",
+   "screen": "records",
+   "section": "actions",
+   "label": "Action A1",
+   "ref": "A1",
+   "task": "Obtain written confirmation from Eko Express of delivery to Abuja and Port Harcourt within 4 days",
+   "fields": [
+    {
+     "id": "owner",
+     "label": "Owner",
+     "options": [
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo",
+       "marks": 0
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello",
+       "marks": 1
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi",
+       "marks": 0
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "due",
+     "label": "Due",
+     "options": [
+      {
+       "id": "fri27",
+       "text": "Fri 27 Nov",
+       "marks": 0
+      },
+      {
+       "id": "mon30",
+       "text": "Mon 30 Nov",
+       "marks": 0
+      },
+      {
+       "id": "tue1",
+       "text": "Tue 1 Dec",
+       "marks": 1
+      },
+      {
+       "id": "wed2",
+       "text": "Wed 2 Dec",
+       "marks": 0
+      },
+      {
+       "id": "thu3",
+       "text": "Thu 3 Dec",
+       "marks": 0
+      },
+      {
+       "id": "fri4",
+       "text": "Fri 4 Dec",
+       "marks": 0
+      },
+      {
+       "id": "asap",
+       "text": "ASAP",
+       "marks": 0
+      },
+      {
+       "id": "nextweek",
+       "text": "Next week",
+       "marks": 0
+      }
+     ]
+    }
+   ]
+  },
+  "a2": {
+   "key": "a2",
+   "type": "composite",
+   "ui": "action",
+   "screen": "records",
+   "section": "actions",
+   "label": "Action A2",
+   "ref": "A2",
+   "task": "Send Ifeoma the Q1 courier budget line in writing",
+   "fields": [
+    {
+     "id": "owner",
+     "label": "Owner",
+     "options": [
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo",
+       "marks": 0
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello",
+       "marks": 0
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi",
+       "marks": 1
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi",
+       "marks": 0
+      }
+     ]
+    },
+    {
+     "id": "due",
+     "label": "Due",
+     "options": [
+      {
+       "id": "fri27",
+       "text": "Fri 27 Nov",
+       "marks": 0
+      },
+      {
+       "id": "mon30",
+       "text": "Mon 30 Nov",
+       "marks": 1
+      },
+      {
+       "id": "tue1",
+       "text": "Tue 1 Dec",
+       "marks": 0
+      },
+      {
+       "id": "wed2",
+       "text": "Wed 2 Dec",
+       "marks": 0
+      },
+      {
+       "id": "thu3",
+       "text": "Thu 3 Dec",
+       "marks": 0
+      },
+      {
+       "id": "fri4",
+       "text": "Fri 4 Dec",
+       "marks": 0
+      },
+      {
+       "id": "asap",
+       "text": "ASAP",
+       "marks": 0
+      },
+      {
+       "id": "nextweek",
+       "text": "Next week",
+       "marks": 0
+      }
+     ]
+    }
+   ]
+  },
+  "a3": {
+   "key": "a3",
+   "type": "composite",
+   "ui": "action",
+   "screen": "records",
+   "section": "actions",
+   "label": "Action A3",
+   "ref": "A3",
+   "task": "Send the packaging supplier paper to Ifeoma",
+   "fields": [
+    {
+     "id": "owner",
+     "label": "Owner",
+     "options": [
+      {
+       "id": "ifeoma",
+       "text": "Ifeoma Adebayo",
+       "marks": 0
+      },
+      {
+       "id": "tunde",
+       "text": "Tunde Bello",
+       "marks": 0
+      },
+      {
+       "id": "amaka",
+       "text": "Amaka Obi",
+       "marks": 0
+      },
+      {
+       "id": "kemi",
+       "text": "Kemi Adeyemi",
+       "marks": 1
+      }
+     ]
+    },
+    {
+     "id": "due",
+     "label": "Due",
+     "options": [
+      {
+       "id": "fri27",
+       "text": "Fri 27 Nov",
+       "marks": 0
+      },
+      {
+       "id": "mon30",
+       "text": "Mon 30 Nov",
+       "marks": 0
+      },
+      {
+       "id": "tue1",
+       "text": "Tue 1 Dec",
+       "marks": 0
+      },
+      {
+       "id": "wed2",
+       "text": "Wed 2 Dec",
+       "marks": 1
+      },
+      {
+       "id": "thu3",
+       "text": "Thu 3 Dec",
+       "marks": 0
+      },
+      {
+       "id": "fri4",
+       "text": "Fri 4 Dec",
+       "marks": 0
+      },
+      {
+       "id": "asap",
+       "text": "ASAP",
+       "marks": 0
+      },
+      {
+       "id": "nextweek",
+       "text": "Next week",
+       "marks": 0
+      }
+     ]
+    }
+   ]
+  },
+  "recipients": {
+   "key": "recipients",
+   "type": "ticks",
+   "ui": "recipients",
+   "screen": "records",
+   "section": "followup",
+   "label": "Who receives the follow up?",
+   "options": [
+    {
+     "id": "ifeoma",
+     "text": "Ifeoma Adebayo"
+    },
+    {
+     "id": "tunde",
+     "text": "Tunde Bello"
+    },
+    {
+     "id": "amaka",
+     "text": "Amaka Obi"
+    },
+    {
+     "id": "kemi",
+     "text": "Kemi Adeyemi"
+    },
+    {
+     "id": "chinedu",
+     "text": "Chinedu Okeke"
+    },
+    {
+     "id": "femi",
+     "text": "Femi Ajayi"
+    },
+    {
+     "id": "staff",
+     "text": "All staff list"
+    }
+   ],
+   "correct": [
+    "ifeoma",
+    "tunde",
+    "amaka",
+    "kemi"
+   ],
+   "max": 1
+  },
+  "attachments": {
+   "key": "attachments",
+   "type": "ticks",
+   "ui": "attachments",
+   "screen": "records",
+   "section": "followup",
+   "label": "Tick the attachments.",
+   "options": [
+    {
+     "id": "minutes",
+     "text": "Minutes with decision summary"
+    },
+    {
+     "id": "actions",
+     "text": "Action register extract"
+    },
+    {
+     "id": "prices",
+     "text": "Option comparison with both price lists"
+    },
+    {
+     "id": "log",
+     "text": "Customer complaint log"
+    },
+    {
+     "id": "rec",
+     "text": "Meeting recording link"
+    }
+   ],
+   "correct": [
+    "minutes",
+    "actions"
+   ],
+   "max": 2
+  },
+  "followup_message": {
+   "key": "followup_message",
+   "type": "text",
+   "typed": true,
+   "ui": "followup",
+   "screen": "records",
+   "section": "followup",
+   "label": "Write the follow up email.",
+   "hint": "Write the message to the attendees."
+  }
+ }
+}
